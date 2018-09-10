@@ -1,0 +1,317 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		<title>CSS|Advance|Update</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		  <link rel="stylesheet" href="style.css">
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-inverse">
+			  <div class="container-fluid">
+			     <ul class="nav navbar-nav">
+			      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Auction<span class="caret"></span></a>
+			        <ul class="dropdown-menu">
+			          <li><a href="#">Option1</a></li>
+			          <li><a href="#">Option2</a></li>
+			          <li><a href="#">Option3</a></li>
+			        </ul>
+			      </li>
+			      <li><a href="#">Dashboard</a></li>
+			      <li><a href="#">Charts</a></li>
+			    </ul>
+			    <ul class="nav navbar-nav navbar-right">
+			      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+			      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+			   	</ul>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="icon-bar">
+			  <a href="#home"><i class="fa fa-fw fa-home"></i> </a>
+			  <a href="#services"><i class="fa fa-fw fa-wrench"></i></a>
+			  <a href="#clients"><i class="fa fa-fw fa-user"></i> </a>
+			  <a href="#contact"><i class="fa fa-fw fa-envelope"></i></a>
+			</div> 
+			<div class="alert">
+				<h4>ALERT</h4>
+			</div>
+			<div class="side-tab">
+				<button type="button" class="btn btn-success">NEW ALERT</button>
+				<h5 class="name">&nbsp;&nbsp;Saved Alerts</h5>
+				<!-- <div class="clr"></div> -->
+				<div class="name-tab">
+					<p><h6>Tata Zica</h6></p>
+				    <p><h6>Coca Cola</h6></p>
+					<p><h6>Pepsi CO</h6></p>
+				</div>
+				<div class="switch-tab">
+					<label class="switch">
+		            <input type="checkbox" name="data[SplashPage][firstname]">
+		            <span class="slider"></span>
+	        		</label>
+	        	
+				    <label class="switch">
+			            <input type="checkbox" name="data[SplashPage][firstname]">
+			            <span class="slider"></span>
+		        	</label> 
+
+		        	 <label class="switch">
+			            <input type="checkbox" name="data[SplashPage][firstname]">
+			            <span class="slider"></span>
+		        	</label> 
+				</div>
+				<div class="recent">
+					<hr>
+					<h6>REPORTS HISORY</h6>
+					<p>Untitled &nbsp;&nbsp;<span style="color: white;font-size: 13px;font-style: italic;">3 days ago</span></p>
+					<p>Coca Cola &nbsp;&nbsp;<span style="color: white;font-size: 13px;font-style: italic;">5 days ago</span></p>
+					<p>Pepsi Co &nbsp;&nbsp;<span style="color: white;font-size: 13px;font-style: italic;">1 week ago</span></p>
+					<p>Zine &nbsp;&nbsp;<span style="color: white;font-size: 13px;font-style: italic;">1 week ago</span></p>
+					<p>Nike &nbsp;&nbsp;<span style="color: white;font-size: 13px;font-style: italic;">1 week ago</span></p>
+				</div>
+			</div>
+		    <div class="main-tab">
+		    	<div class="progress-tab">
+		    		<ul id="progress">
+					    <li class="active">1. Details</li>
+					    <li>2. Summary</li>
+					</ul>
+		    	</div>
+		    	<div class="clr"></div>
+		    	<div class="form-tab">
+		    		<form class="form-horizontal" action="/action_page.php">
+		    			<div class="form-group">
+					      <label class="control-label col-sm-2" for="name" >Name:</label>
+					      <div class="col-sm-8">
+					        <input type="text" class="form-control" placeholder="Enter Name">
+					      </div>
+					    </div>
+					</form>
+		    	</div>
+		    	<div class="inline">
+		    		<form class="form-inline" action="/action_page.php">
+						<div class="form-group">
+							<div class="dropdown">
+								<label>Alert Type</label>
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select<span class="caret"></span></button>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+									<li role="presentation">Option 1</li>
+									<li role="presentation">Option 2</li>
+									<li role="presentation">Option 3</li>
+								</ul>
+							</div>
+						</div>
+							<div class="form-group" id="time">
+							<div class="dropdown">
+								<label>Time Zone</label>
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select<span class="caret"></span></button>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+									<li role="presentation">Option 1</li>
+									<li role="presentation">Option 2</li>
+									<li role="presentation">Option 3</li>
+								</ul>
+							</div>
+						</div>
+					</form>
+		    	</div>
+		    
+		
+
+
+		    	<div class="notify">
+		    		<label>Notify When:</label>
+		    	</div>
+		    	<div class="metric">
+		    		<form class="form-inline" action="/action_page.php">
+						<div class="form-group">
+							<div class="dropdown">
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select<span class="caret"></span></button>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+									<li role="presentation">Option 1</li>
+									<li role="presentation">Option 2</li>
+									<li role="presentation">Option 3</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+								<label>value is</label>
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select<span class="caret"></span></button>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+									<li role="presentation">Option 1</li>
+									<li role="presentation">Option 2</li>
+									<li role="presentation">Option 3</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Enter value Here">
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+								<label>on</label>
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select<span class="caret"></span></button>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+									<li role="presentation">Option 1</li>
+									<li role="presentation">Option 2</li>
+									<li role="presentation">Option 3</li>
+								</ul>
+								<label>basis.</label>
+							</div>
+						</div>
+					</form>
+					<div class="radio-button">
+						<label class="radio-inline"><input type="radio" name="optradio" checked>option1</label>
+		    		<label class="radio-inline"><input type="radio" name="optradio" checked>option2</label>
+					</div>
+		    		<form class="form-inline" action="/action_page.php">
+						<div class="form-group">
+							<div class="dropdown">
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select<span class="caret"></span></button>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+									<li role="presentation">Option 1</li>
+									<li role="presentation">Option 2</li>
+									<li role="presentation">Option 3</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+								<label>value is</label>
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select<span class="caret"></span></button>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+									<li role="presentation">Option 1</li>
+									<li role="presentation">Option 2</li>
+									<li role="presentation">Option 3</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Enter value Here">
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+								<label>on</label>
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select<span class="caret"></span></button>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+									<li role="presentation">Option 1</li>
+									<li role="presentation">Option 2</li>
+									<li role="presentation">Option 3</li>
+								</ul>
+								<label>basis.</label>
+							</div>
+						</div>
+					</form>     	
+		    	</div>
+		    	<div class="radio-button1">
+						<label class="radio-inline"><input type="radio" name="optradio" checked>option1</label>
+		    		<label class="radio-inline"><input type="radio" name="optradio" checked>option2</label>
+				</div>
+				<div class="metric1">
+					<form class="form-inline" action="/action_page.php">
+						<div class="form-group">
+							<div class="dropdown">
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select<span class="caret"></span></button>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+									<li role="presentation">Option 1</li>
+									<li role="presentation">Option 2</li>
+									<li role="presentation">Option 3</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+								<label>value is</label>
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select<span class="caret"></span></button>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+									<li role="presentation">Option 1</li>
+									<li role="presentation">Option 2</li>
+									<li role="presentation">Option 3</li>
+								</ul>
+							</div>
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" placeholder="Enter value Here">
+						</div>
+						<div class="form-group">
+							<div class="dropdown">
+								<label>on</label>
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select<span class="caret"></span></button>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+									<li role="presentation">Option 1</li>
+									<li role="presentation">Option 2</li>
+									<li role="presentation">Option 3</li>
+								</ul>
+								<label>basis.</label>
+							</div>
+						</div>
+					</form> 
+				</div>
+				<div class="radio-button1">
+						<label class="radio-inline"><input type="radio" name="optradio" checked>option1</label>
+		    		<label class="radio-inline"><input type="radio" name="optradio" checked>option2</label>
+				</div>
+		    	<div class="filter">
+				    <form class="form-inline" action="/action_page.php">
+				    <div class="form-group">
+				      <label><span class="glyphicon glyphicon-glass"></span>&nbsp;Filter:&nbsp;&nbsp;&nbsp;</label> 
+				      <input type="Text" class="form-control" placeholder="Country:India">
+				    </div>
+		    	</div>
+		    	<div class="form-tab1">
+		    		<form class="form-horizontal">
+		    		<div class="form-group">
+		    			<div class="dropdown">
+					<div class="dropdown">
+						<label for="text">Frequency</label>
+								<button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Select<span class="caret"></span></button>
+								<ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+									<li role="presentation">Option 1</li>
+									<li role="presentation">Option 2</li>
+									<li role="presentation">Option 3</li>
+								</ul>
+							</div>			
+				</div>
+		    		</div>
+		    	</form>
+		    	</div>
+		    	<div class="alert1">
+				    <label>Alert Duration: &nbsp;&nbsp;</label>
+				     <label class="radio-inline"><input type="radio" name="optradio" checked>Option 1</label>
+				    <label class="radio-inline"><input type="radio" name="optradio">Option 2</label>
+				    <label class="radio-inline"><input type="radio" name="optradio">Option 3</label>
+			   </div>
+			   <div class="notify1">
+				     <label>Notify By: &nbsp;&nbsp;</label>
+				     <div class="checkbox">
+				      <label><input type="checkbox" value="">Option 1</label>
+				    </div>
+				    <div class="checkbox">
+				      <label><input type="checkbox" value="">Option 2</label>
+					</div>
+				</div>
+				<div class="comment">
+					<div class="form-group">
+					   <textarea class="form-control" rows="5" id="comment" placeholder="Type email ID of Other recipients"></textarea>
+					</div>
+				</div>
+				<div class="footer">
+					<p class="fl_right">
+						<button class="button1">
+							Cancel
+						</button>
+						<button class="button2">
+							Submit
+						</button>
+					</p>
+			</div>
+			</div>
+			<div class="clr"></div>
+			
+		</div>
+	</body>
+	</html>

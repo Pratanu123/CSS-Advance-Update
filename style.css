@@ -1,0 +1,303 @@
+	.navbar{
+		margin-bottom: 0;
+	}
+	.container{
+		margin: 0;
+		padding: 0;
+	}
+	.icon-bar {
+	    width: 20%px; /* Set a specific width */
+	    height: 875px;
+	    float: left;
+	    background-color: #555; /* Dark-grey background */
+	}
+
+	.icon-bar a {
+	    display: block; /* Make the links appear below each other instead of side-by-side */
+	    text-align: center; /* Center-align text */
+	    padding: 2px; /* Add some padding */
+	    transition: all 0.3s ease; /* Add transition for hover effects */
+	    color: white; /* White text color */
+	    font-size: 36px; /* Increased font-size */
+	}
+
+	.icon-bar a:hover {
+	    background-color: #000; /* Add a hover color */
+	}
+	.active {
+	    background-color: #4CAF50; /* Add an active/current color */
+	}
+	.alert{
+		margin: 0px 0px 0 0px;
+		width: 1288px;
+		padding: 10px 0px 2px 10px ;
+		background-color: grey;
+		border:none;
+	}
+	.alert h4{
+		margin-left: 50px;
+		font-style: italic;
+	}
+	.side-tab{
+		float: left;
+		margin-top:0px;
+		margin-left: 0;
+		padding: 0;
+		height: 834px;
+		width: 15%;
+		background-color: #6666;
+	}
+	.btn{
+		margin: 10px 0 0 20px;
+	}
+	.clr{
+		clear: both;
+	}
+	.side-tab h5{
+		margin-left: 30px;
+		color: white;
+
+	}
+	.name-tab{
+		//clear: both;
+		float: left;
+		margin: 13px;
+	}
+	.name-tab h6{
+		margin: 0;
+	}
+	.side-tab .name{
+		margin: 13px;
+		font-weight: normal;
+		font-size: 14px;
+	}
+	.switch-tab{
+		float: right;
+		margin-top: 10px;
+	}
+	.switch{
+		position: relative;
+		display: block;
+		padding: 0;
+		margin: 10px 15px 0px 15px ;
+		width: 40px;
+		height:15px;
+	}
+	.switch input{
+		display: none;
+	}
+	.slider {
+	  position: absolute;
+	  cursor: pointer;
+	  top: 0;
+	  left: 0;
+	  right: 0;
+	  bottom: 0;
+	  background-color: #d7d7d7;
+	  -webkit-transition: .4s;
+	  transition: .4s;
+	}
+	.slider:before {
+	  position: absolute;
+	  content: "";
+	  height: 14px;
+	  width: 14px;
+	  left: 1px;
+	  bottom: 1px;
+	  background-color: white;
+	  -webkit-transition: .4s;
+	  transition: .4s;
+	}
+	input:checked + .slider {background-color: #1fb5ad;}
+	input:focus + .slider {box-shadow: 0 0 1px #1fb5ad;}
+	input:checked + .slider:before {-webkit-transform: translateX(26px);
+	-ms-transform: translateX(26px);transform: translateX(26px);}
+	.recent{
+		margin-top: 545px;
+		height: 200px;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.recent hr{
+		border-width: 2px;
+	}
+	.recent h6{
+		color: white;
+	}
+	.main-tab{
+		float: right;
+		width: 80%;
+		margin-top: 10px;
+	}
+	#progress {
+	    padding: 0;
+	    list-style-type: none;
+	    font-family: arial;
+	    font-size: 12px;
+	    clear: both;
+	    line-height: 1em;
+	    margin: 0 -1px;
+	    text-align: center;
+	}
+
+	#progress li {
+	    float: left;
+	    padding: 10px 30px 10px 40px;
+	    background: #333;
+	    color: #fff;
+	    position: relative;
+	    border-top: 1px solid #666;
+	    border-bottom: 1px solid #666;
+	    width: 18%;
+	    margin: 0 1px;
+	}
+
+	#progress li:before {
+	    content: '';
+	    border-left: 16px solid #fff;
+	    border-top: 16px solid transparent;
+	    border-bottom: 16px solid transparent;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    
+	}
+	#progress li:after {
+	    content: '';
+	    border-left: 16px solid #333;
+	    border-top: 16px solid transparent;
+	    border-bottom: 16px solid transparent;
+	    position: absolute;
+	    top: 0;
+	    left: 100%;
+	    z-index: 20;
+	}
+
+	#progress li.active {
+	    background: #555;
+	}
+
+	#progress li.active:after {
+	    border-left-color: #555;
+	}
+	.form-tab{
+		margin-top: 15px;
+	}
+	.form-inline{
+		margin-left: 5px;
+	}
+	.form-inline .form-group{
+		margin-left: 80px;
+	}
+	.form-tab .form-group button{
+		margin: 0;
+
+	}
+
+	.inline{
+		margin-left: 80px;
+	}
+	.inline .form-group{
+		margin: 0;
+	}
+	.inline .form-group button{
+		margin-left: 0;
+	}
+	#time{
+		margin-left: 100px;
+	}
+	.notify{
+		margin-left: 150px;
+		margin-top: 15px;
+	}
+	.metric{
+		margin-left: 150px;
+		margin-top: 5px;
+		margin-right: 160px;
+		background-color: grey;
+		height: 130px;
+	}
+	.metric1{
+		margin-left: 150px;
+		margin-top: 5px;
+		margin-right: 160px;
+		background-color: grey;
+		height: 53px;
+	}
+	.metric .form-group{
+		margin: 0;
+	}
+	.metric .form-group button{
+		margin-left: 0;
+	}
+	.metric .form-group label{
+		margin-top: 10px;
+		padding: 5px;
+	}
+	.metric .form-group input{
+		margin-top: 13px;
+		padding: 5px;
+	}
+	.metric1 .form-group{
+		margin: 0;
+	}
+	.metric1 .form-group button{
+		margin-left: 0;
+	}
+	.metric1 .form-group label{
+		margin-top: 10px;
+		padding: 5px;
+	}
+	.metric1 .form-group input{
+		margin-top: 13px;
+		padding: 5px;
+	}
+	.filter{
+		margin-top: 10px;
+
+	}
+	.radio-button{
+		margin-left: 5px;
+		margin-top: 5px;
+	}
+	.radio-button1{
+		margin-left: 150px;
+		margin-top: 5px;
+	}
+	.form-tab1{
+		margin-left: 90px;
+		margin-top: 10px;
+	}
+	.alert1{
+		margin-left: 90px;
+		margin-top: 10px;
+	}
+	.notify1{
+		margin-left: 90px;
+		margin-top: 10px;
+	}
+	.comment{
+		margin-left: 90px;
+		margin-top: 10px;
+	}
+	.footer{
+		margin-left: -8px;
+		width: 1062px;
+		height: 30px;
+		background-color:lightgrey;
+	}
+
+	.fl_right{
+		float: right;
+		padding: 2px;
+	}
+	.button1{
+		background-color: white;
+		border:1px solid blue;
+		color: blue;
+	}
+	.button2{
+		background-color: blue;
+		border:1px solid blue;
+		color: white;
+	}
